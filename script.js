@@ -39,7 +39,7 @@ butt.onmouseover = () => {
 	++slaps;
 	if (sound) {
 		var a = slaps % auds.length;
-		auds[a].currentTime = 0.1;
+		auds[a].currentTime = 0;
 		auds[a].play();
 	}
 	nutt.setAttribute("hover", "true");
