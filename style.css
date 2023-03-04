@@ -1,0 +1,66 @@
+* {
+	cursor: url(hand.png) 64 64, grab;
+	text-align: center;
+	color: #000000;
+}
+html {
+	height: 100%;
+	width: 100%;
+	background: #FFFFFF;
+}
+bg {
+	background: url(meat1.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+}
+bg[ico="1"] {
+	background: url(meat1.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+bg[ico="2"] {
+	background: url(meat2.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+bg[ico="3"] {
+	background: url(meat3.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+bg[ico="4"] {
+	background: url(meat4.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+bg[hover="true"] {
+	width: 45%;
+	height: 45%;
+}
+div#butt {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 30%;
+}
+h2#suck {
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 30%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+p#ball {
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 30%;
+	height: 30%;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
